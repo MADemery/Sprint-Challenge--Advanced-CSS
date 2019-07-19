@@ -1,1 +1,26 @@
-// Mixins Here
+
+
+.ButtColor{
+    background-color: @backgroundGrey;
+}
+
+.TxtButtColor{
+    color: @txtbuttcolor;
+}
+
+@keyframes example {
+    from {background-color: green;}
+    to {background-color: black;}
+  }
+
+.animation(@keyframes){
+    animation-name: example;
+    animation-duration: 7s;
+}
+
+
+
+
+
+
+
