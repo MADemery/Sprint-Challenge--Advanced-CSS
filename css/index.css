@@ -177,9 +177,19 @@ p {
   flex-direction: row;
   font-size: 2rem;
 }
+@keyframes example {
+  from {
+    background-color: pink;
+  }
+  to {
+    background-color: purple;
+  }
+}
 .SpaceHeader h6 {
   color: black;
   font-size: 3rem;
+  animation-name: example;
+  animation-duration: 4s;
 }
 @media (max-width: 500px) {
   flex-direction: column;
