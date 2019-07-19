@@ -8,15 +8,16 @@
     color: @txtbuttcolor;
 }
 
-@keyframes example {
-    from {background-color: green;}
-    to {background-color: black;}
-  }
 
-.animation(@keyframes){
-    animation-name: example;
-    animation-duration: 7s;
+.ButtMixin(@text-align, @font-size){
+
+    text-align: @text-align;
+
+    font-size: @font-size;
+
 }
+
+
 
 
 

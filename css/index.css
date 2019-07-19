@@ -267,11 +267,15 @@ footer {
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 2rem;
   border-radius: 12px;
+  text-align: center;
+  font-size: 2rem;
+}
+.walk .walk-text .btn:hover {
+  background-color: yellow;
+  color: black;
 }
 .walk .walk-img {
   width: 46%;

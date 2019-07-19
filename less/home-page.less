@@ -89,12 +89,14 @@
           border: none;
           .TxtButtColor();
           padding: 15px 32px;
-          text-align: center;
           text-decoration: none;
           display: inline-block;
-          font-size: 2rem;
           border-radius: 12px;
-          .animation(@keyframes);
+          .ButtMixin(center, 2rem);
+        }
+        .btn:hover { 
+          background-color: yellow;
+          color: black; 
         }
     }
 
